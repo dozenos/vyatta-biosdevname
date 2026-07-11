@@ -1,0 +1,22 @@
+Source: vyatta-biosdevname
+Section: contrib/net
+Priority: extra
+Maintainer: DozenOS Package Maintainers <maintainers@dozenos.local>
+Build-Depends: debhelper (>= 5), autotools-dev, libpci-dev, autoconf, automake
+Standards-Version: 3.7.2
+
+Package: vyatta-biosdevname
+Architecture: any
+Depends: ${shlibs:Depends},
+ libpci3,
+ zlib1g,
+ ${misc:Depends}
+Pre-Depends:
+Suggests:
+Replaces:
+Description: DozenOS version of the biosdevname utility.
+ Provides biosdevname which takes a kernel device name as an
+ argument, and returns the BIOS-given name it "should" be.  This is
+ necessary on systems where the BIOS name for a given device (e.g. the
+ label on the chassis is "Gb1") doesn't map directly and obviously to
+ the kernel name (e.g. eth0).

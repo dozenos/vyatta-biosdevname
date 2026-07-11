@@ -1,0 +1,162 @@
+vyatta-biosdevname (1:0.3.11+dozenos2+current2) unstable; urgency=medium
+
+  * New branch
+  * 1:0.3.11+dozenos2+current1
+
+ -- Kim Hagen <kim.sidney@gmail.com>  Sun, 24 Jan 2016 14:56:02 -0500
+
+vyatta-biosdevname (1:0.3.11+dozenos2+current1) unstable; urgency=medium
+
+  * New branch
+
+ -- Kim Hagen <kim.sidney@gmail.com>  Sun, 24 Jan 2016 14:54:44 -0500
+
+vyatta-biosdevname (1:0.3.11+dozenos2+lithium3) unstable; urgency=medium
+
+  [ Thomas Jepp ]
+  * Add missing autoconf & automake build depends.
+
+  [ Kim Hagen ]
+
+ -- Kim Hagen <kim.sidney@gmail.com>  Sun, 24 Jan 2016 14:52:24 -0500
+
+vyatta-biosdevname (1:0.3.11+dozenos2+lithium2) unstable; urgency=low
+
+  * vyatta-biosdevname: update dh_gencontrol with new development build flag
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Mon, 15 Jun 2015 07:36:15 +0100
+ 
+vyatta-biosdevname (1:0.3.11+dozenos2+lithium1) unstable; urgency=low
+
+  * New branch
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Fri, 12 Dec 2014 21:24:53 +0000
+ 
+vyatta-biosdevname (1:0.3.11+dozenos1+helium2) unstable; urgency=low
+
+  [ Kim Hagen ]
+  * Skip checking if we are in a vm if cpu is other than x86_64.
+
+  [ Daniil Baturin ]
+  * Update maintainer address.
+
+ -- Daniil Baturin <daniil@baturin.org>  Sun, 17 Aug 2014 23:49:28 +0200
+
+vyatta-biosdevname (1:0.3.11+dozenos1+helium1) unstable; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Sat, 15 Feb 2014 15:50:23 +0100
+
+vyatta-biosdevname (1:0.3.11-vyatta6+hydrogen1) unstable; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Sun, 17 Nov 2013 00:02:44 +0100
+
+vyatta-biosdevname (1:0.3.11-vyatta6+daisy1) unstable; urgency=low
+
+  * create daisy branch
+
+ -- John Southworth <john.southworth@vyatta.com>  Sat, 13 Oct 2012 13:30:19 -0700
+
+vyatta-biosdevname (1:0.3.11-vyatta6) unstable; urgency=low
+
+  * new branch
+
+ -- John Southworth <john.southworth@vyatta.com>  Fri, 12 Oct 2012 19:46:27 -0700
+
+vyatta-biosdevname (1:0.3.11-vyatta5) unstable; urgency=low
+
+  * PCI-E physical slot number doesn't work right
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Wed, 13 Jun 2012 00:04:56 -0700
+
+vyatta-biosdevname (1:0.3.11-vyatta4) unstable; urgency=low
+
+  * remove unused flags
+  * Add flag to allow running in Vm
+  * Add option to search for device based on pci-id
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Fri, 16 Mar 2012 15:43:23 -0700
+
+vyatta-biosdevname (1:0.3.11-vyatta3) unstable; urgency=low
+
+  * Update to biosdevname 0.3.11
+  * Fix rules directory path
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Sat, 03 Mar 2012 09:57:37 -0800
+
+vyatta-biosdevname (0.12) unstable; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Sat, 03 Mar 2012 02:25:17 -0800
+
+vyatta-biosdevname (0.11) unstable; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Thu, 07 Jul 2011 20:54:45 -0700
+
+vyatta-biosdevname (0.10) unstable; urgency=low
+
+  * Merge upstream version 0.3.4.
+
+ -- Bob Gilligan <gilligan@vyatta.com>  Sun, 16 Jan 2011 23:08:08 -0800
+
+vyatta-biosdevname (0.9) unstable; urgency=low
+
+  * new branch
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 28 Dec 2010 20:45:14 +0000
+
+vyatta-biosdevname (0.8) unstable; urgency=low
+
+  * remove deprecated linda override
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Fri, 12 Nov 2010 11:10:01 -0800
+
+vyatta-biosdevname (0.7) unstable; urgency=low
+
+  * Put manual page for biosdevname in proper place
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Fri, 22 Oct 2010 14:10:52 -0700
+
+vyatta-biosdevname (0.6) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 02 Sep 2010 18:27:41 -0700
+
+vyatta-biosdevname (0.5) unstable; urgency=low
+
+  * clean up build
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Wed, 01 Sep 2010 16:44:54 -0700
+
+vyatta-biosdevname (0.4) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 22 Jul 2010 17:22:45 -0700
+
+vyatta-biosdevname (0.3) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Wed, 17 Feb 2010 16:12:34 -0800
+
+vyatta-biosdevname (0.2) unstable; urgency=low
+
+  [ Bob Gilligan ]
+  * Bugfix 5325: Debian arch must be "any" to build an multiple
+    architectures.
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 09 Feb 2010 18:45:12 -0800
+
+vyatta-biosdevname (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Bob Gilligan <gilligan@vyatta.com>  Wed, 03 Feb 2010 15:30:45 -0800
